@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif; 
+    background-color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* Գլխամաս */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo a {
+    text-decoration: none;
+    color: #111111;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.header .logo {
+    display: flex;
+}
+
+.header .logo img {
+    width: 36px;
+    height: 36px;
+    padding-right: 12px;
+}
+
+.menu_bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu_bar a {
+    text-decoration: none;
+    color: #555555;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.menu_bar a:hover {
+    color: #FF3998;
+    transition-duration: 0.5s;
+}
+
+.menu_list_item {
+    margin-right: 20px;
+}
+
+.menu_list_item:last-child {
+    margin-right: 0;
+}
+
+/* Առաջին սեկցիա */
+
+.main_block {
+    display: flex;
+    width: 1120px;
+    min-height: 519px;
+    margin-top: 182px;
+}
+
+.main_block_text {
+    margin-right: 151px;
+    width: 620px;
+    min-height: 483px;
+}
+
+.main_block p {
+    padding-top: 18px;
+    padding-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF3998;
+}
+
+.main_block_title {
+    width: 620px; 
+    height: 232px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    color: #111111;
+}
+
+.main_block_subtitle {
+    padding-top: 36px;
+    padding-bottom: 37px;
+    width: 537px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+
+.main_block_btn {
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    border-radius: 100px;
+    width: 188px;
+    height: 75px;
+    background-color: #fff;
+    color: #111111;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.main_block_btn:hover {
+    background-color: #FF3998;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.main_block_image {
+    display: flex;
+}
+
+.main_block img {
+    width: 328px;
+    height: 519px;
+}
+
+/* Երկրորդ սեկցիա */
+
+.gradient_block {
+    margin-top: 182px;
+    width: 100%;
+    min-height: 320px;
+    background-image: linear-gradient(to right top, #ff3998, #ff4183, #ff4e6f, #ff5d5d, #ff6c4d, #fd803b, #f5932a, #eaa71c, #d1c121, #b1d841, #86ed6c, #39ffa0);
+    border-radius: 16px;
+}
+
+.gradient_block .gb_title {
+    padding-top: 154px;
+    padding-left: 64px;
+    padding-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111111;
+}
+
+.gradient_block .gb_subtitle {
+    padding-left: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #111111;
+}
+
+/* Երրորդ սեկցիա */
+
+.banners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 122px;
+    margin-bottom: 122px;
+}
+
+.banners img {
+    opacity: 0.4;
+}
+
+.banners img:hover {
+    opacity: 1;
+}
+
+/* Չորրորդ սեկցիա */
+
+.showcase {
+    width: 100%;
+    min-height: 558px;
+}
+
+.showcase_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111111;
+    padding-bottom: 24px;
+}
+
+.showcase_subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+
+.showcase .cardbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-bottom: 120px;
+}
+
+.showcase .cardbox .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 290px;
+    height: 400px;
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    background-image: url('../img/1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+}
+
+.showcase .cardbox .cards_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 290px;
+    height: 400px;
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    background-image: url('../img/2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+}
+
+.showcase .cardbox .cards_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 290px;
+    height: 400px;
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    background-image: url('../img/3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+}
+
+.showcase .cardbox .cards_4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 290px;
+    height: 400px;
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    background-image: url('../img/4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cards_title .first_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FF8139;
+    padding-bottom: 12px;
+}
+
+.cards_title .main_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+    padding-bottom: 12px;
+}
+
+.cards_title .subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #777777;
+    padding-bottom: 32px;
+}
+
+.cards_subtitle .left_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #777777;
+    padding-bottom: 9px;
+}
+
+.cards_subtitle .left_main_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+    color: #111111;
+    padding-bottom: 12px;
+}
+
+.cards_subtitle .left_subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: right;
+    color: #777777;
+    padding-bottom: 32px;
+}
+
+.blockline {
+    width: 100%;
+    height: 2px;
+    background-color: #EEEEEE;
+}
+
+/* Հինգերորդ սեկցիա */
+
+.second_section {
+    display: flex;
+    width: 100%;
+    margin-top: 85px;
+}
+
+.second_section_text {
+    margin-right: 202px;
+    width: 651px;
+    min-height: 310px;
+}
+
+.second_section p {
+    padding-top: 18px;
+    padding-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF3998;
+}
+
+.second_section_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+    color: #111111;
+}
+
+.second_section_subtitle {
+    padding-top: 24px;
+    padding-bottom: 37px;
+    width: 537px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+
+.second_section_btn {
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    border-radius: 100px;
+    width: 188px;
+    height: 75px;
+    background-color: #fff;
+    color: #111111;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.second_section_btn:hover {
+    background-color: #FF3998;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.second_section_image {
+    display: flex;
+}
+
+.second_section img {
+    width: 206px;
+    height: 467px;
+}
+
+.blockline {
+    width: 100%;
+    height: 2px;
+    background-color: #EEEEEE;
+}
+
+/* Վեցերորդ սեկցիա */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 401px;
+}
+
+.footer .footer_logo {
+    text-decoration: none;
+    color: #111111;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.footer_first_menu p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+}
+
+.footer_first_menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer_first_menu ul li { 
+    margin-right: 16px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.nav_links {
+    padding-right: 60px;
+}
+
+.footer_nav h2 {
+    padding-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.footer_nav ul {
+    list-style-type: none;
+}
+
+.footer_nav ul li a {
+    text-decoration: none;
+    color: #555555;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer_nav ul li a:hover {
+    color: #FF3998;
+    transition-duration: 0.5s;
+}
